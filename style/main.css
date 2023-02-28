@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color-primary:#3eceee;
+    --bg-color-secondary:#fff;
+    --color-price:#ff0000;
+    --color-cart-line:#522a8e;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg-color-primary);
+}
+img{
+    max-width: 100%;
+}
+.products{
+    background-color: var(--bg-color-secondary);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+.product__image img{
+    width: 250px;
+}
+.product__title{
+    font-size: 18px;
+}
+.product__price{
+    font-size: 14px;
+    font-weight: bolder;
+    color: var(--color-price);
+}
+.total__price{
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: var(--color-price);
+}
